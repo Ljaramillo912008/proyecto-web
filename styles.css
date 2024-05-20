@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9; /* Fondo principal */
 }
 
 /* Estilos para el encabezado */
 header {
     background-color: #333;
-    color: #49A2FA;
+    color: #fff; /* Texto en el encabezado */
     text-align: center;
     padding: 20px 0;
 }
@@ -52,7 +52,7 @@ main {
 
 div {
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #fefefe; /* Fondo de las secciones */
     padding: 20px;
     border-radius: 5px;
 }
@@ -72,6 +72,7 @@ footer p {
 /* Estilos para el aside */
 aside {
     background-color: #f0f0f0;
+    color: #333; /* Texto en el aside */
     padding: 10px;
     border-radius: 5px;
 }
