@@ -3,15 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Fondo principal */
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #333;
-    color: #fff; /* Texto en el encabezado */
+    background-color: #ff6f61; /* Rojo coral */
+    color: #fff; /* Blanco */
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
 }
 
 header h1 {
@@ -20,29 +19,27 @@ header h1 {
 
 /* Estilos para la navegación */
 nav {
-    background-color: #555;
-    padding: 10px 0;
+    margin-top: 20px;
+    text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+nav input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+nav button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #48cae4; /* Azul turquesa */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+nav button:hover {
+    background-color: #90e0ef; /* Azul turquesa más claro */
 }
 
 /* Estilos para el contenido principal */
@@ -50,28 +47,21 @@ main {
     padding: 20px;
 }
 
-div {
+article {
     margin-bottom: 20px;
-    background-color: #fefefe; /* Fondo de las secciones */
     padding: 20px;
-    border-radius: 5px;
+    background-color: #fdffb6; /* Amarillo pálido */
+    border-radius: 4px;
 }
 
-/* Estilos para el pie de página */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+article h2 {
+    margin-top: 0;
 }
 
-footer p {
-    margin: 0;
+article p {
+    margin-bottom: 0;
 }
 
-/* Estilos para el aside */
-aside {
-    background-color: #f0f0f0;
     color: #333; /* Texto en el aside */
     padding: 10px;
     border-radius: 5px;
