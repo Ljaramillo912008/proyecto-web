@@ -3,43 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0; /* Color de fondo */
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #ff6f61; /* Rojo coral */
-    color: #fff; /* Blanco */
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-}
-
-/* Estilos para la navegación */
-nav {
-    margin-top: 20px;
-    text-align: center;
-}
-
-nav input[type="text"] {
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-nav button {
-    padding: 8px 20px;
-    border: none;
-    background-color: #48cae4; /* Azul turquesa */
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-nav button:hover {
-    background-color: #90e0ef; /* Azul turquesa más claro */
 }
 
 /* Estilos para el contenido principal */
@@ -50,19 +26,16 @@ main {
 article {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #fdffb6; /* Amarillo pálido */
-    border-radius: 4px;
+    background-color: #fff; /* Color de fondo de los artículos */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 article h2 {
-    margin-top: 0;
+    color: #333; /* Color del título del artículo */
 }
 
 article p {
+    color: #555; /* Color del texto del artículo */
     margin-bottom: 0;
 }
 
-    color: #333; /* Texto en el aside */
-    padding: 10px;
-    border-radius: 5px;
-}
