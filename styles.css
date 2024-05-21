@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambio de tipo de letra */
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Color de fondo */
@@ -8,14 +8,45 @@ body {
 
 /* Estilos para el encabezado */
 header {
-    background-color: #333; /* Color de fondo del encabezado */
-    color: #fff; /* Color del texto del encabezado */
+    background-color: #ff6f61; /* Rojo coral */
+    color: #fff; /* Texto blanco */
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto de los enlaces */
+    font-weight: bold;
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+nav ul li a:hover {
+    background-color: #ff847c; /* Rojo coral más claro al pasar el ratón */
 }
 
 /* Estilos para el contenido principal */
@@ -26,7 +57,7 @@ main {
 article {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #fff; /* Color de fondo de los artículos */
+    background-color: #fdffb6; /* Amarillo pálido */
     border-radius: 5px; /* Bordes redondeados */
 }
 
