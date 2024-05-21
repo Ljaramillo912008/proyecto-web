@@ -1,14 +1,14 @@
 /* Estilos generales */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambio de tipo de letra */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipo de letra */
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Color de fondo */
+    background-color: #f0f6fc; /* Azul claro */
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #ff6f61; /* Rojo coral */
+    background-color: #007bff; /* Azul intenso */
     color: #fff; /* Texto blanco */
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ header h1 {
 
 /* Estilos para la navegación */
 nav {
-    background-color: #333; /* Color de fondo de la barra de navegación */
+    background-color: #0056b3; /* Azul oscuro */
     padding: 10px 0; /* Espaciado interno */
     text-align: center;
 }
@@ -38,7 +38,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* Color de texto de los enlaces */
+    color: #fff; /* Texto blanco */
     font-weight: bold;
     padding: 10px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ff847c; /* Rojo coral más claro al pasar el ratón */
+    background-color: #007bff; /* Azul intenso al pasar el ratón */
 }
 
 /* Estilos para el contenido principal */
@@ -57,16 +57,15 @@ main {
 article {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #fdffb6; /* Amarillo pálido */
+    background-color: #ebf5ff; /* Azul claro */
     border-radius: 5px; /* Bordes redondeados */
 }
 
 article h2 {
-    color: #333; /* Color del título del artículo */
+    color: #0056b3; /* Azul oscuro */
 }
 
 article p {
-    color: #555; /* Color del texto del artículo */
+    color: #333; /* Texto gris oscuro */
     margin-bottom: 0;
 }
-
