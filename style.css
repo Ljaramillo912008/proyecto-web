@@ -1,159 +1,104 @@
-/* Estilo general */
-body {
-    font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa; /* Light gray background for the body */
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conoce TODO sobre HTML</title>
+  <style>
+    /* Estilo general */
+    body {
+      font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa; /* Light gray background for the body */
+    }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
 
-  /* Encabezado */
-header {
-    padding: 20px;
-    text-align: center;
-}
+    /* Encabezado */
+    header {
+      padding: 20px;
+      text-align: center;
+    }
 
-h1 {
-    font-size: 4em;
-    margin-bottom: 30px;
-    color: #333; /* Darker color for the heading */
-}
+    h1 {
+      font-size: 4em;
+      margin-bottom: 30px;
+      color: #333; /* Darker color for the heading */
+    }
 
-p {
-    font-size: 1.1em;
-    line-height: 1;
-    color: #333; /* Darker color for the text */
-}
+    p {
+      font-size: 1.1em;
+      line-height: 1;
+      color: #333; /* Darker color for the text */
+    }
 
-  /* Navegación */
-nav {
-    background-color: #fff; /* White background for the navigation bar */
-    padding: 15px;
-    margin-bottom: 30px; /* Add some space between the navigation and the content */
-}
+    /* Navegación */
+    nav {
+      background-color: #fff; /* White background for the navigation bar */
+      padding: 15px;
+      margin-bottom: 30px; /* Add some space between the navigation and the content */
+    }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 1;
-    text-align: center; /* Center the navigation links */
-}
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 1;
+      text-align: center; /* Center the navigation links */
+    }
 
-nav li {
-    display: inline-block;
-    margin-right: 30px;
-}
+    nav li {
+      display: inline-block;
+      margin-right: 30px;
+    }
 
+    nav ul li a {
+      text-decoration: none;
+      color: #007bff ; /* Texto blanco */
+      font-weight: bold;
+      padding: 10px; /* Espaciado interno */
+      border-radius: 5px; /* Bordes redondeados */
+      transition: background-color 0.3s; /* Transición suave del color de fondo */
+    }
 
-nav ul li a {
-    text-decoration: none;
-    color: #007bff ; /* Texto blanco */
-    font-weight: bold;
-    padding: 10px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s; /* Transición suave del color de fondo */
-}
+    nav ul li a:hover {
+      background-color: #bed9eb; /* Azul intenso al pasar el ratón */
+    }
 
-nav ul li a:hover {
-    background-color: #bed9eb; /* Azul intenso al pasar el ratón */
-}
+    nav li:last-child {
+      margin-right: 0; /* Remove margin from the last navigation item */
+    }
 
-nav li:last-child {
-    margin-right: 0; /* Remove margin from the last navigation item */
-}
+    /* Artículos */
+    .articulos-seccion {
+      padding: 2px 0;
+      margin-left: 60px;
+    }
 
-  /* Artículos */
-.articulos-seccion {
-    padding: 2px 0;
-    margin-left: 60px;
-}
+    .articulos-seccion h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      color: #333; /* Darker color for the section heading */
+    }
 
-.articulos-seccion h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #333; /* Darker color for the section heading */
-}
+    .articulos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: 20px;
+    }
 
-.articulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 20px;
-}
-
-.articulos article {
-    width: 45%;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    background-color: #fff; /* White background for each article */
-    padding: 10px; /* Add some padding for better readability */
-    border: 1px solid #d5d2d2; /* Add a thin border to separate articles */
-    border-radius: 5px; /* Add some rounded corners to the articles */
-}
-
-.articulos article img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.articulos article h3 {
-    font-size: 1.2em; /* Increase font size for article titles */
-    margin-bottom: 5px; /* Add some space between the title and the content */
-    color: #333; /* Darker color for the article title */
-}
-
-/* Estilo general del footer */
-footer {
-    background-color: #f0f0f0; /* Color de fondo gris claro */
-    color: #333; /* Color de texto gris oscuro */
-    padding: 40px 0; /* Añadimos espacio superior e inferior */
-    text-align: center; /* Centramos el contenido */
-  }
-  
-  /* Contenedor del footer */
-  .container {
-    width: 90%; /* Ancho del contenedor */
-    max-width: 1200px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centramos el contenedor horizontalmente */
-    display: flex; /* Establecemos un diseño flexible */
-    justify-content: space-between; /* Distribuimos el espacio entre los elementos */
-    align-items: center; /* Centramos verticalmente los elementos */
-}
-
-  /* Párrafo de copyright */
-footer p {
-    font-size: 14px; /* Tamaño de la fuente */
-    margin: 0; /* Eliminamos el margen superior */
-}
-
-  /* Lista de enlaces */
-footer ul {
-    list-style: none; /* Eliminamos los marcadores de lista */
-    padding: 0; /* Eliminamos el relleno */
-}
-
-footer li {
-    display: inline-block; /* Mostramos los elementos de la lista como bloques en línea */
-    margin-right: 20px; /* Añadimos espacio entre los elementos de la lista */
-}
-
-footer li:last-child {
-    margin-right: 0; /* Eliminamos el margen del último elemento */
-}
-
-  /* Enlaces de la lista */
-footer a {
-    color: #333; /* Color de los enlaces */
-    text-decoration: none; /* Eliminamos la decoración de subrayado */
-    font-weight: bold; /* Aumentamos el grosor de la fuente */
-    transition: color 0.3s ease; /* Agregamos una transición suave para el cambio de color */
-}
+    .articulos article {
+      width: 45%;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      background-color: #fff; /* White background for each article */
+      padding: 10px; /* Add some padding for better readability */
+      border: 1px solid #d5d2d2; /* Add a thin
 
 footer a:hover {
     color: #007bff; /* Color de los enlaces al pasar el cursor */
