@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Conoce TODO sobre HTML</title>
-  <style>
+
     /* Estilo general */
     body {
       font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
@@ -103,3 +97,42 @@
 footer a:hover {
     color: #007bff; /* Color de los enlaces al pasar el cursor */
 }
+/* ... Estilos previos ... */
+
+/* Artículos */
+.articulos-seccion {
+  /* ... Estilos previos ... */
+}
+
+.articulos-seccion h2 {
+  /* ... Estilos previos ... */
+}
+
+.articulos {
+  /* ... Estilos previos ... */
+}
+
+.articulos article {
+  width: 45%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #d5d2d2;
+  aspect-ratio: 1/1; /* Relación de aspecto 1:1 para forma cuadrada */
+  min-height: 300px; /* Altura mínima de 300px */
+  margin-top: 0; /* Eliminar margen superior */
+  margin-bottom: 0; /* Eliminar margen inferior */
+}
+
+.articulos article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.articulos article h3 {
+  /* ... Estilos previos ... */
+}
+
+/* ... Estilos posteriores ... */
